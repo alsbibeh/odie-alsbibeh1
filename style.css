@@ -1,0 +1,76 @@
+body {
+    font-family: 'Cairo', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #0d6efd;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #343a40;
+    margin: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 15px 0;
+    display: block;
+  }
+  
+  nav ul li a:hover {
+    color: #0d6efd;
+  }
+  
+  section {
+    padding: 40px 20px;
+    max-width: 1000px;
+    margin: auto;
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    color: #0d6efd;
+  }
+  
+  .services, .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .service, .skill {
+    flex: 1 1 45%;
+    background-color: #e9ecef;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  footer {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .services, .skills {
+      flex-direction: column;
+    }
+  }
